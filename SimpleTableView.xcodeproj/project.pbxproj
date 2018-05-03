@@ -12,6 +12,9 @@
 		CD19B1F9209AD73600A541B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD19B1F7209AD73600A541B6 /* Main.storyboard */; };
 		CD19B1FB209AD73600A541B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD19B1FA209AD73600A541B6 /* Assets.xcassets */; };
 		CD19B1FE209AD73600A541B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD19B1FC209AD73600A541B6 /* LaunchScreen.storyboard */; };
+		CD19B20A209AED5B00A541B6 /* Cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD19B207209AED5B00A541B6 /* Cat.jpg */; };
+		CD19B20B209AED5B00A541B6 /* Tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD19B208209AED5B00A541B6 /* Tiger.jpg */; };
+		CD19B20C209AED5B00A541B6 /* Lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD19B209209AED5B00A541B6 /* Lion.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CD19B1FA209AD73600A541B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD19B1FD209AD73600A541B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD19B1FF209AD73600A541B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD19B207209AED5B00A541B6 /* Cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cat.jpg; sourceTree = "<group>"; };
+		CD19B208209AED5B00A541B6 /* Tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiger.jpg; sourceTree = "<group>"; };
+		CD19B209209AED5B00A541B6 /* Lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		CD19B1F2209AD73600A541B6 /* SimpleTableView */ = {
 			isa = PBXGroup;
 			children = (
+				CD19B207209AED5B00A541B6 /* Cat.jpg */,
+				CD19B209209AED5B00A541B6 /* Lion.jpg */,
+				CD19B208209AED5B00A541B6 /* Tiger.jpg */,
 				CD19B1F3209AD73600A541B6 /* AppDelegate.swift */,
 				CD19B1F5209AD73600A541B6 /* ViewController.swift */,
 				CD19B1F7209AD73600A541B6 /* Main.storyboard */,
@@ -123,9 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD19B20B209AED5B00A541B6 /* Tiger.jpg in Resources */,
 				CD19B1FE209AD73600A541B6 /* LaunchScreen.storyboard in Resources */,
 				CD19B1FB209AD73600A541B6 /* Assets.xcassets in Resources */,
+				CD19B20A209AED5B00A541B6 /* Cat.jpg in Resources */,
 				CD19B1F9209AD73600A541B6 /* Main.storyboard in Resources */,
+				CD19B20C209AED5B00A541B6 /* Lion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
